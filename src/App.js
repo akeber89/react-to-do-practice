@@ -1,16 +1,20 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <MainContent />
-      <Footer />
+      <input type="checkbox" />
+      <p>Eat some chocolate</p>
+
+      <input type="checkbox" />
+      <p>Hug your friend</p>
+
+      <input type="checkbox" />
+      <p>Turn off all the lights</p>
+
+      <input type="checkbox" />
+      <p>Smile!</p>
     </div>
   );
 }
-
 export default App;
